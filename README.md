@@ -33,4 +33,4 @@ A clean and modern card component built using HTML and CSS. This card UI display
 bash
 git clone https://github.com/divyansh11x/stylish-card-ui.git
 
-Open index.html in your browser to see the card.
+2. Open index.html in your browser to see the card.
