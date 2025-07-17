@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card UI</title>
+  <style>
+    body {
+      background-color: #e9f0f3;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      margin: 4px;
+    }
+
+    .image {
+      padding: 10px;
+    }
+
+    .image img {
+      border-radius: 10px;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .tags {
+      margin-bottom: 10px;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: white;
+      color: black;
+      font-size: 12px;
+      padding: 4px 10px;
+      border: 1px solid gray;
+      border-radius: 20px;
+      margin-right: 5px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .btn {
+      display: block;
+      width: fit-content;
+      margin: 15px auto 0;
+      padding: 8px 16px;
+      background-color: #e3f2fd;
+      color: #1976d2;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .btn:hover {
+      background-color: #bbdefb;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="image">
+      <img
+        src="https://i0.wp.com/www.tricialottwilliford.com/wp-content/uploads/2014/07/bigstock-Young-man-fishing-on-a-lake-fr-50275337.jpg?ssl=1"
+        alt="Fishing">
+    </div>
+    <div class="card-body">
+      <div class="tags">
+        <span class="tag">Nature</span>
+        <span class="tag">Lake</span>
+      </div>
+      <h2>Lago di Braies</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Consectetur sodales morbi dignissim sed diam pharetra vitae ipsum odio.
+      </p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </div>
+</body>
+
+</html>
